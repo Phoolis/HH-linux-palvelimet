@@ -34,13 +34,34 @@ Tein asennuksen windowsin omaan virtuaaliympäristöön Hyper-V:hen, jonka saa p
   - Asennus D-asemalle D:\VM
   - Nimeksi Debian13
   - Generation 2
-  - Startup memory 4000 MB, Use Dynamic Memory täpätty
+  - Startup memory 4000 MB, Use Dynamic Memory pois
   - Connection: Default switch
   - Create New Virtual hard disk: 30 GB, D:\VM\Debian13\Virtual Hard Disks\
-  - Install operating system from a bootable image file: debian-live-13.0.0-amd64-xfce.iso
+  - Install operating system from a bootable image file: debian-live-13.0.0-amd64-xfce.is
 
-Summary:
-    <img width="880" height="666" alt="image" src="https://github.com/user-attachments/assets/3c5a307c-5356-46a4-9426-eff15e3c76cc" />
+Virtuaalikone oli nyt luotu. Seuraavaksi otin siihen yhteyden Actions -lehden Connect -nappulalla, ja käynnistin koneen avautuvan ikkunan Start -nappulasta.
+
+Seuraava näkymä ei ollut lupaava:
+
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/c106b027-cc67-46e4-865a-f16fc8623f8c" />
+
+Noin minuutin odottelun jälkeen näkymä muuttui, jossa selostettiin, että Boottaus imagesta ei onnistunut:
+
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/6254abaa-ca3d-48e5-9836-6f0cec8e5915" />
+
+Lähdin etsimään tietoa Debianin asennuksesta Hyper-V -ympäristöön, ja löysinkin lupaavan ohjeen mytechietouchs -sivustolta: https://mytechiethoughts.com/linux/setting-up-a-debian-base-system/
+
+Notes -kohdan ensimmäinen vinkki Secure Bootin disabloimisesta auttoi heti! Live Boot Menu aukesi ilman ongelmia:
+
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/bd2a9504-8b3b-453b-95d5-2744cf5d4118" />
+
+Valitsin valikosta Live System (amd64), jolla pääsee kokeilemaan Linuxia ilman asentamista. Pienen latailun jälkeen työpöytä tuli näkyviin omaan ikkunaansa. Päätin asentaa Debianin Teron vinkin mukaan Install Debian työpöydän kuvakkeesta. 
+
+Asennusvalinnat:
+
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/0c252473-0c07-4a5d-bc33-322735a62535" />
+
+
 
 
 </details>
