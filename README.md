@@ -6,6 +6,9 @@ Paul's Haaga Helia Linux palvelimet -course work homepage
   <summary>h1</summary>
 
   ## x) Raportin kirjoittaminen
+
+  Yhteenveto ranskalaisin viivoin lähteestä: [Tero Karvinen Raportin kirjoittaminen](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
+  
   - Raportissa selostetaan mitä tehtiin, miksi, ja mitä kunkin vaiheen aikana tapahtui.
   - Helpointa, jos kirjoittaa samalla kun tekee, myös oman muistamisen tueksi.
   - Raportin kuuluu olla sen verran yksityiskohtainen, että se on toisen henkilön toistettavissa.
