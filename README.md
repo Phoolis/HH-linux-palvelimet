@@ -49,19 +49,29 @@ Noin minuutin odottelun jälkeen näkymä muuttui, jossa selostettiin, että Boo
 
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/6254abaa-ca3d-48e5-9836-6f0cec8e5915" />
 
-Lähdin etsimään tietoa Debianin asennuksesta Hyper-V -ympäristöön, ja löysinkin lupaavan ohjeen mytechietouchs -sivustolta: https://mytechiethoughts.com/linux/setting-up-a-debian-base-system/
+Lähdin etsimään ohjeita Debianin asennuksesta Hyper-V -ympäristöön, ja löysinkin lupaavan näköisen ohjeen mytechietouchs -sivustolta: https://mytechiethoughts.com/linux/setting-up-a-debian-base-system/
 
-Notes -kohdan ensimmäinen vinkki Secure Bootin disabloimisesta auttoi heti! Live Boot Menu aukesi ilman ongelmia:
+Hyper V -alaotsikon ensimmäinen vinkki Secure Bootin disabloimisesta auttoi heti! Live Boot Menu aukesi ilman ongelmia:
 
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/bd2a9504-8b3b-453b-95d5-2744cf5d4118" />
 
-Valitsin valikosta Live System (amd64), jolla pääsee kokeilemaan Linuxia ilman asentamista. Pienen latailun jälkeen työpöytä tuli näkyviin omaan ikkunaansa. Päätin asentaa Debianin Teron vinkin mukaan Install Debian työpöydän kuvakkeesta. 
+Valitsin valikosta Live System (amd64), jolla pääsee kokeilemaan Linuxia ilman asentamista. Pienen latailun jälkeen työpöytä tuli näkyviin omaan ikkunaansa. Päätin asentaa Debianin Teron vinkin mukaan työpöydällä olevasta Install Debian -kuvakkeesta, jolloin kaikki valinnat voi tehdä ennen asennusta. 
 
 Asennusvalinnat:
 
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/0c252473-0c07-4a5d-bc33-322735a62535" />
 
+Asennus käynnistyi, ja asennuksen edistymispalkki lähti täyttymään. Asennuksessa kesti noin 5 minuuttia. Uudelleenkäynnistyksen ja pienen odottelun jälkeen virtuaalikone avasi jälleen näkymän työpöydälle. 
 
+Näkymä työpöydästä, terminaalista, ja parista peruskomennosta:
+
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/982544ef-1a4d-4027-a1ab-ceaeb9376cb4" />
+
+Linuxin asennus virtuaalikoneelle valmis! Lopuksi sammutin koneen terminaalista käsin `sudo poweroff` -komennolla.
+
+Lopullinen näkymä vielä itse Hyper-V Manager -ohjelmasta, missä näkyy asennettu Debian13 -virtuaalikone:
+
+<img width="1351" height="901" alt="image" src="https://github.com/user-attachments/assets/b44d1d62-641a-4a20-9bb4-730a361e3028" />
 
 
 </details>
