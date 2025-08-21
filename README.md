@@ -34,12 +34,12 @@ Tein asennuksen windowsin omaan virtuaaliympäristöön Hyper-V:hen, jonka saa p
   - Asennus D-asemalle D:\VM
   - Nimeksi Debian13
   - Generation 2
-  - Startup memory 4000 MB, Use Dynamic Memory pois
+  - Startup memory 4000 MB, Use Dynamic Memory täppä pois
   - Connection: Default switch
   - Create New Virtual hard disk: 30 GB, D:\VM\Debian13\Virtual Hard Disks\
   - Install operating system from a bootable image file: debian-live-13.0.0-amd64-xfce.is
 
-Virtuaalikone oli nyt luotu. Seuraavaksi otin siihen yhteyden Actions -lehden Connect -nappulalla, ja käynnistin koneen avautuvan ikkunan Start -nappulasta.
+Virtuaalikone oli nyt luotu. Seuraavaksi otin siihen yhteyden Actions -lehden Connect -nappulalla, ja käynnistin virtuaalikoneen avautuneen ikkunan Start -nappulasta.
 
 Seuraava näkymä ei ollut lupaava:
 
@@ -51,7 +51,11 @@ Noin minuutin odottelun jälkeen näkymä muuttui, jossa selostettiin, että Boo
 
 Lähdin etsimään ohjeita Debianin asennuksesta Hyper-V -ympäristöön, ja löysinkin lupaavan näköisen ohjeen mytechietouchs -sivustolta: https://mytechiethoughts.com/linux/setting-up-a-debian-base-system/
 
-Hyper V -alaotsikon ensimmäinen vinkki Secure Bootin disabloimisesta auttoi heti! Live Boot Menu aukesi ilman ongelmia:
+Sivuston Hyper V -alaotsikon alta löytynyt ensimmäinen vinkki Secure Bootin disabloimisesta auttoi heti! Actions -> Settings -> Security. Enable Secure Boot täppä pois: 
+
+<img width="902" height="859" alt="image" src="https://github.com/user-attachments/assets/22f6fe8d-da09-4ca1-a5e3-d97ce3b0a86c" />
+
+Live Boot Menu aukesi tämän jälkeen ilman ongelmia:
 
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/bd2a9504-8b3b-453b-95d5-2744cf5d4118" />
 
