@@ -77,9 +77,7 @@ Lopullinen näkymä vielä itse Hyper-V Manager -ohjelmasta, missä näkyy asenn
 
 <img width="1351" height="901" alt="image" src="https://github.com/user-attachments/assets/b44d1d62-641a-4a20-9bb4-730a361e3028" />
 
+----
+Licensed under Creative Commons [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-</details>
-
-<details>
-  <summary>h2</summary>
-</details>
+CC BY: credit must be given to the creator, Paul Carlson.
