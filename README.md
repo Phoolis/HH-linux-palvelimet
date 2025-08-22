@@ -1,6 +1,6 @@
 # HH-linux-palvelimet
 
-Paul's Haaga Helia Linux palvelimet -course work homepage
+Paulin Haaga Helian Linux palvelimet 2025 syksyn kurssin ([ICI003AS2A-3014](https://terokarvinen.com/linux-palvelimet/)) kotisivut tehtäviä varten.
 
 <details open>
   <summary>h1</summary>
