@@ -2,83 +2,9 @@
 
 Paulin Haaga Helian Linux palvelimet 2025 syksyn kurssin ([ICI003AS2A-3014](https://terokarvinen.com/linux-palvelimet/)) kotisivut tehtäviä varten.
 
-<details open>
-  <summary>h1</summary>
+Linkit raportteihin:
 
-  ## x) Raportin kirjoittaminen
-
-  Yhteenveto ranskalaisin viivoin lähteestä: [Tero Karvinen Raportin kirjoittaminen](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
-  
-  - Raportissa selostetaan mitä tehtiin, miksi, ja mitä kunkin vaiheen aikana tapahtui.
-  - Helpointa, jos kirjoittaa samalla kun tekee, myös oman muistamisen tueksi.
-  - Raportin kuuluu olla sen verran yksityiskohtainen, että se on toisen henkilön toistettavissa.
-  - Täsmällinen: mikä komento, kellonaika jos oleellista, onnistuiko, mikä virhe jne.
-  - Helppolukuinen: väliotsikoita, huolellista kieltä, vältä kirjoitusvirheitä.
-  - Viittaukset käytettyhin lähteisiin, niin että viittaus myös osuu oikeaan kohtaan eikä vain listana lopussa.
-  - Kuvankaappaukset osana selostusta!
-  
-  ## a) Linuxin asentaminen virtuaalikoneeseen
-
-  - Kohdekone: HP ZBook 15 G3 -kannettava
-  - Speksit: i7-6820HQ CPU, 16 GB RAM, 477 GB SSD, NVIDIA Quadro M2000M 4 GB
-  - Host OS: Windows 10 Pro Version 22H2
-
-  Latasin Linux distroksi juuri julkaistun Debian 13.0.0 Xfce -desktop version osoitteesta https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.0.0-amd64-xfce.iso.
-
-Tein asennuksen windowsin omaan virtuaaliympäristöön Hyper-V:hen, jonka saa päälle täppäämällä sen Windows Features valikosta:
-
-  <img width="555" height="492" alt="image" src="https://github.com/user-attachments/assets/3f0e6a81-5887-4e7f-bd56-52a376c3d4db" />
-
-  BIOS:ssa virtualisointi olikin jo valmiiksi päällä, koska koneella on aiemmin käytetty Dockeria virtualisointiin.
-  
-  Käynnistin Hyper-V Manager -ohjelman, ja valitsin Actions -välilehdeltä New -> Virtual Machine, mikä avasi asennusvelhon. 
-
-  Valinnat:
-  - Asennus D-asemalle D:\VM
-  - Nimeksi Debian13
-  - Generation 2
-  - Startup memory 4000 MB, Use Dynamic Memory täppä pois
-  - Connection: Default switch
-  - Create New Virtual hard disk: 30 GB, D:\VM\Debian13\Virtual Hard Disks\
-  - Install operating system from a bootable image file: debian-live-13.0.0-amd64-xfce.is
-
-Virtuaalikone oli nyt luotu. Seuraavaksi otin siihen yhteyden Actions -lehden Connect -nappulalla, ja käynnistin virtuaalikoneen avautuneen ikkunan Start -nappulasta.
-
-Seuraava näkymä ei ollut lupaava:
-
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/c106b027-cc67-46e4-865a-f16fc8623f8c" />
-
-Noin minuutin odottelun jälkeen näkymä muuttui, jossa selostettiin, että Boottaus imagesta ei onnistunut:
-
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/6254abaa-ca3d-48e5-9836-6f0cec8e5915" />
-
-Lähdin etsimään ohjeita Debianin asennuksesta Hyper-V -ympäristöön, ja löysinkin lupaavan näköisen ohjeen mytechietouchs -sivustolta: https://mytechiethoughts.com/linux/setting-up-a-debian-base-system/
-
-Sivuston Hyper V -alaotsikon alta löytynyt ensimmäinen vinkki Secure Bootin disabloimisesta auttoi heti! Actions -> Settings -> Security. Enable Secure Boot täppä pois: 
-
-<img width="902" height="859" alt="image" src="https://github.com/user-attachments/assets/22f6fe8d-da09-4ca1-a5e3-d97ce3b0a86c" />
-
-Live Boot Menu aukesi tämän jälkeen ilman ongelmia:
-
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/bd2a9504-8b3b-453b-95d5-2744cf5d4118" />
-
-Valitsin valikosta Live System (amd64), jolla pääsee kokeilemaan Linuxia ilman asentamista. Pienen latailun jälkeen työpöytä tuli näkyviin omaan ikkunaansa. Päätin asentaa Debianin Teron vinkin mukaan työpöydällä olevasta Install Debian -kuvakkeesta, jolloin kaikki valinnat voi tehdä ennen asennusta. 
-
-Asennusvalinnat:
-
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/0c252473-0c07-4a5d-bc33-322735a62535" />
-
-Asennus käynnistyi, ja asennuksen edistymispalkki lähti täyttymään. Asennuksessa kesti noin 5 minuuttia. Uudelleenkäynnistyksen ja pienen odottelun jälkeen virtuaalikone avasi jälleen näkymän työpöydälle. 
-
-Näkymä työpöydästä, terminaalista, ja parista peruskomennosta:
-
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/982544ef-1a4d-4027-a1ab-ceaeb9376cb4" />
-
-Linuxin asennus virtuaalikoneelle valmis! Lopuksi sammutin koneen terminaalista käsin `sudo poweroff` -komennolla.
-
-Lopullinen näkymä vielä itse Hyper-V Manager -ohjelmasta, missä näkyy asennettu Debian13 -virtuaalikone:
-
-<img width="1351" height="901" alt="image" src="https://github.com/user-attachments/assets/b44d1d62-641a-4a20-9bb4-730a361e3028" />
+[h1 - Raportointiohjeet ja linuxin asennus virtuaalikoneeseen](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h1.md)
 
 ----
 Licensed under Creative Commons [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
