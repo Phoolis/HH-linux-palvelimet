@@ -6,6 +6,8 @@ Linkit raportteihin:
 
 [h1 - Raportointiohjeet ja linuxin asennus virtuaalikoneeseen](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h1.md)
 
+[h2 - Komentorivin perusteet](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h2.md)
+
 ----
 Licensed under Creative Commons [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
