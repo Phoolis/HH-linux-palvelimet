@@ -8,6 +8,8 @@ Linkit raportteihin:
 
 [h2 - Komentorivin perusteet](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h2.md)
 
+[h3 - Apache web server](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h3.md)
+
 ----
 Licensed under Creative Commons [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
