@@ -10,6 +10,8 @@ Linkit raportteihin:
 
 [h3 - Apache web server](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h3.md)
 
+[h4 - Oma serveri Hetzneristä](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h4.md)
+
 ----
 Licensed under Creative Commons [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
