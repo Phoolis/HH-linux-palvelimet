@@ -12,6 +12,8 @@ Linkit raportteihin:
 
 [h4 - Oma serveri Hetzneristä](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h4.md)
 
+[h5 - Nimipalvelu ja domain](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h5.md)
+
 ----
 Licensed under Creative Commons [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
