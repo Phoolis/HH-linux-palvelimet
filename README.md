@@ -14,6 +14,10 @@ Linkit raportteihin:
 
 [h5 - Nimipalvelu ja domain](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h5.md)
 
+- Extraa: [h5.5 - CI/CD-putki kotisivun automaattiseen päivittämiseen](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h5.5.md)
+
+[h6 - Verkkosivun salaus](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h6.md)
+
 ----
 Licensed under Creative Commons [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
