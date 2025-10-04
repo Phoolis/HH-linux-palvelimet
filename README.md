@@ -1,6 +1,6 @@
 # HH-linux-palvelimet
 
-Paulin Haaga Helian Linux palvelimet 2025 syksyn kurssin ([ICI003AS2A-3014](https://terokarvinen.com/linux-palvelimet/)) kotisivut tehtäviä varten.
+Paulin Haaga Helian Linux palvelimet 2025 syksyn kurssin ([ICI003AS2A-3014](https://terokarvinen.com/linux-palvelimet/)) kotisivut tehtäviä varten. Kurssin aikana olen asentanut oman virtuaalilinuxin, ja pystyttänyt palvelimen hostaaman kotisivujani: [paulcarlson.fi](https://paulcarlson.fi).
 
 Linkit raportteihin:
 
