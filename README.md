@@ -18,6 +18,8 @@ Linkit raportteihin:
 
 [h6 - Verkkosivun salaus](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h6.md)
 
+[h7 - Maalisuora](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h7.md)
+
 ----
 Licensed under Creative Commons [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
