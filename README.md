@@ -1,5 +1,7 @@
 # HH-linux-palvelimet
 
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
 Paulin Haaga Helian Linux palvelimet 2025 syksyn kurssin ([ICI003AS2A-3014](https://terokarvinen.com/linux-palvelimet/)) kotisivut tehtäviä varten. Kurssin aikana olen asentanut virtuaali-Linuxin omalle koneelle, ja pystyttänyt palvelimen hostaaman kotisivujani: [paulcarlson.fi](https://paulcarlson.fi).
 
 Linkit raportteihin:
@@ -21,7 +23,6 @@ Linkit raportteihin:
 [h7 - Maalisuora](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h7.md)
 
 ----
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
