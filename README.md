@@ -21,6 +21,18 @@ Linkit raportteihin:
 [h7 - Maalisuora](https://github.com/Phoolis/HH-linux-palvelimet/blob/main/h7.md)
 
 ----
-Licensed under Creative Commons [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
-CC BY: credit must be given to the creator, Paul Carlson.
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+----
+
+P.S.
+Lisenssejä saa kätevästi valmiina täältä: https://github.com/santisoler/cc-licenses
